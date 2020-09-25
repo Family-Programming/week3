@@ -24,9 +24,10 @@ Please write a program that demonstrates the following features:
 2) Drawing text at any spot you specify.  example. column 3, row 1
 3) Draw a custom letter (createChar)
 4) Display the moisture sensor data as a number and the following graphs.
-  * Time Series (time across the X axis, moisture on the Y axis)
   * Bar Gauge (A horizontal thermometer bar showing the last data point)
   * Time Series Bar (A row of vertical bars, X being time, and Y being a vertical bar for each data point
+5) Irrigation Status Screen
+  * Do something cool that shows the status of a the irrigation system.  Use fake data for now.
 
 The graphing of the moisture data.  This will require moving the cursor around and drawing custom characters.You only get a few custom characters so you will need to make a plan on how to best use these.
 
