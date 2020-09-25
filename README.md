@@ -17,8 +17,18 @@ A sample program has been started in the week3 repo.  It may be simplest to star
 
 ## Part 2
 The LCD is a basic I2C LCD with 16 character width and 2 line height.  This is suitable for many types of displays.
-I expect that you will use a library to control this LCD.  I was able to control Deborah's LCD with this library. LiquidCrystal_PCF8574.  This librar is not installed by default so you will need to add it to the libraries by using the manage libraries menu.
+I expect that you will use a library to control this LCD.  I was able to control Deborah's LCD with this library https://www.mathertel.de/Arduino/LiquidCrystal_PCF8574.aspx.  This library is not installed by default so you will need to add it to the libraries by using the manage libraries menu.
 
+Please write a program that demonstrates the following features:
+1) displaying text on both lines
+2) Drawing text at any spot you specify.  example. column 3, row 1
+3) Draw a custom letter (createChar)
+4) Display the moisture sensor data as a number and the following graphs.
+  * Time Series (time across the X axis, moisture on the Y axis)
+  * Bar Gauge (A horizontal thermometer bar showing the last data point)
+  * Time Series Bar (A row of vertical bars, X being time, and Y being a vertical bar for each data point
+
+The graphing of the moisture data.  This will require moving the cursor around and drawing custom characters.You only get a few custom characters so you will need to make a plan on how to best use these.
 
 ## Part 3
 The last part will be to use part 1 and part 2 to create a menu suitable for controlling the irrigation system.  A few points to consider.
