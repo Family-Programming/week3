@@ -1,14 +1,13 @@
 
-#define row_1 2
-#define row_2 3
-#define row_3 4
-#define row_4 5
+#define row_1 3
+#define row_2 4
+#define row_3 5
+#define row_4 6
 
-#define col_1 6
-#define col_2 7
-#define col_3 8
-#define col_4 9
-
+#define col_1 7
+#define col_2 8
+#define col_3 9
+#define col_4 10
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
