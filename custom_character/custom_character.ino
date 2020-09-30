@@ -10,6 +10,8 @@ byte customChar[8] = {//put anything in here but just 0s, and 1s.
   0b11111,
   0b11111
 };
+
+byte customChar1[8]
 void setup() 
 {
   lcd.init();
@@ -18,7 +20,7 @@ void setup()
   lcd.setCursor(1, 0); 
   lcd.write((byte)0);
   lcd.setCursor(2,0); 
-  
+  lcd.write((byte)0);
 
 
 }
