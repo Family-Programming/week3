@@ -17,7 +17,7 @@ void setup()
   lcd.createChar(0, customChar); 
   lcd.setCursor(1, 0); 
   lcd.write((byte)0);
-   
+  lcd.setCursor(2,0); 
   
 
 
