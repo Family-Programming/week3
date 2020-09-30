@@ -11,7 +11,15 @@ byte customChar[8] = {//put anything in here but just 0s, and 1s.
   0b11111
 };
 
-byte customChar1[8]
+byte customChar1[8] = {// need to make this note
+  0b00111,
+  0b11111,
+  0b11111,
+  0b11111,
+  0b11111,
+  0b11111,
+  0b
+}
 void setup() 
 {
   lcd.init();
