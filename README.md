@@ -37,3 +37,28 @@ The last part will be to use part 1 and part 2 to create a menu suitable for con
 2) the LCD needs to be attached to the SDA/SCL pins specifically.
 It is not required to modify the irrigation program to have this keypad & display, but it may be helpful.
 Make sure you do some user interface trials to ensure that the system is easy to understand.
+
+Please write a program that produces the following user interface.
+1) Inform the user of what is happening
+ * Current sensor values
+ * pump running (how long until pump is done running?)
+2) Have a key that enters a configuration system
+3) Allow user configuration
+ * User can select 1 of 4 pump channels
+ * User can select the threshold of dryness to run the pump
+ * User can select how long to run a pump when that level of dryness is reached.
+4) Save the user configuration
+5) Settings summary showing the current settings
+ * If all settings cannot be shown on one screen then use a button to step through each pump setting.
+6) System Pause
+ * If you want to move pipes and things, you will want to be able to pause the system.
+ 
+Before you write this program please draw a flow chart showing how the interface will work.  Look up User Flow Diagram example to see lots of ideas.
+
+What is due:
+Friday I expect to see a user flow diagram with the following features:
+ * I would like to see example "screens" so I know what will be displayed in each "mode".
+   - You can use your displays to produce the screens and just take pictures for the document.
+ * A program running that demonstrates at least the user status screen with the 4 sensors and 4 pump states.
+
+Tell me on friday what the next screen will be.
